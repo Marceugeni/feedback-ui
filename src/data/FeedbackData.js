@@ -2,23 +2,21 @@ const FeedbackData = [
     {
         id: 1,
         rating: 3,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, soluta animi. Dolore molestias quas maiores ut odit rerum fugiat animi, accusantium illo aspernatur minima saepe, sed quaerat eveniet reprehenderit dolorum."
+        text: "Me ha parecido normal"
     },
     {
         id: 2,
         rating: 5,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, soluta animi. Dolore molestias quas maiores ut odit rerum fugiat animi, accusantium illo aspernatur minima saepe, sed quaerat eveniet reprehenderit dolorum."
+        text: "Es Excelente!!!!"
     },
     {
         id: 3,
         rating: 2,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, soluta animi. Dolore molestias quas maiores ut odit rerum fugiat animi, accusantium illo aspernatur minima saepe, sed quaerat eveniet reprehenderit dolorum."
-    },
+        text: "Me ha parecido normal tambien, tirando a regular"    },
     {
         id: 4,
         rating: 1,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, soluta animi. Dolore molestias quas maiores ut odit rerum fugiat animi, accusantium illo aspernatur minima saepe, sed quaerat eveniet reprehenderit dolorum."
-    }
+        text: "No Mata"    }
 ]
 
 export default FeedbackData;

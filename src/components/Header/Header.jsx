@@ -6,7 +6,7 @@ function Header({ text }) {
   return (
     <header>
         <div className="container">
-            <h2>{text}</h2>
+            <h2 className='title!'>{text}</h2>
         </div>
         
     </header>

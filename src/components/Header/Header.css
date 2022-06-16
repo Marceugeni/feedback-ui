@@ -5,7 +5,8 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-    background-color: #ff6a95;
+    background-color: grey;
+    color: whitesmoke;
   }
 
 .container {

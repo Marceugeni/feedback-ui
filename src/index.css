@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(54, 78, 163);
+  background-color: white;
   line-height: 1.6;
 }
 
@@ -19,6 +19,10 @@ ul {
 .card.reverse {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
+}
+
+h4 {
+  color:#333
 }
 
 .card h2 {
@@ -37,7 +41,7 @@ ul {
 .rating li,
 .num-display {
   position: relative;
-  background: #f4f4f4;
+  background: grey;
   width: 50px;
   height: 50px;
   padding: 10px;
@@ -62,7 +66,7 @@ ul {
 
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
+  background: grey;
   color: #fff;
 }
 
@@ -75,23 +79,7 @@ ul {
   color: #fff;
 }
 
-.input-group {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #ccc;
-  padding: 8px 10px;
-  border-radius: 8px;
-}
 
-input {
-  flex-grow: 2;
-  border: none;
-  font-size: 16px;
-}
-
-input:focus {
-  outline: none;
-}
 
 .feedback-stats {
   color: #fff;
@@ -128,30 +116,6 @@ input:focus {
   width: 100px;
   height: 40px;
   cursor: pointer;
-}
-
-.btn-primary {
-  background-color: #202142;
-}
-
-.btn-secondary {
-  background: #ff6a95;
-}
-
-.btn:hover {
-  transform: scale(0.98);
-  opacity: 0.9;
-}
-
-.btn:disabled {
-  background-color: #cccccc;
-  color: #333;
-  cursor: auto;
-}
-
-.btn:disabled:hover {
-  transform: scale(1);
-  opacity: 1;
 }
 
 .message {

@@ -1,19 +1,15 @@
-import {useState} from 'react';
+import { FaTimes } from 'react-icons/fa'
 import './FeedbackItem.css';
 
-function FeedbackItem({key, rating, text}) {
-
-    const [rating, setRating] = useState();
-    const [text, setText] = useState(); 
-
-    const handleClick = () => {
-        setRating(rating +1)
-    }
+function FeedbackItem({ item, handleDelete }) {
 
     return (
     <div className="card">
-        <div className="num-display" key={key}>{rating}</div>
-        <div className="text-display">{text}</div> 
+        <div className="num-display">{item.rating}</div>
+        <button className='close' onClick={() => handleDelete(item.id)}>
+            <FaTimes />
+        </button>
+        <div className="text-display">{item.text}</div> 
     </div>
     )
 }
